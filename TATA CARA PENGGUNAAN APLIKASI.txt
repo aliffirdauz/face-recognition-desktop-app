@@ -1,0 +1,32 @@
+Sebelumnya kami memohon maaf karena tidak bisa mengumpulkan file exe
+dari aplikasi kami karena terdapat error yang belum dapat diperbaiki
+saat kami mengkonversi file python ke exe menggunakan pyinstaller yaitu
+pyinstaller tidak dapat membuka file shape_predictor_68_face_landmarks.dat
+karena kami menggunakan face recognition dalam aplikasi kami.
+
+==========TATA CARA PENGGUNAAN APLIKASI==========
+
+1. Pastikan install library berikut:
+   - cv2
+   - matplotlib
+   - numpy
+   - PIL
+   - PyQt5
+   - time
+   - face_recognition
+   - imutils
+   - pickle
+   - pyshine
+   - tkinter
+2. Jalankan aplikasinya
+3. Jika wajahmu belum dikenali maka klik tombol "Take Face"
+4. Input nama dan ID (NRP) anda
+5. Akan muncul window baru untuk memasukan data wajah anda ke sistem
+6. Klik 's' dikeyboard selama 5 kali untuk training data wajah anda
+7. Window akan kembali ke awal lalu klik tombol "Start"
+8. Sistem akan mencoba mengenali wajah anda dan apabila berhasil
+   maka wajah anda akan diberi bingkai kotak berwana merah dengan
+   nama anda sebagai caption dibagian bawah bingkai
+9. Tombol "Save Result" berguna untuk menangkap gambar jika diperlukan
+10. Slider "Brightness" dan "Blur" berfungsi untuk mengolah citra jika
+    diperlukan
